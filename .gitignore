@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+# Environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+# Notebooks
+.ipynb_checkpoints/
+# ML data, weights, and experiment artifacts
+data/
+datasets/
+checkpoints/
+weights/
+artifacts/
+outputs/
+runs/
+logs/
+wandb/
+mlruns/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+*.keras
+*.tflite
+# Local databases and caches
+*.sqlite
+*.sqlite3
+.cache/
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
