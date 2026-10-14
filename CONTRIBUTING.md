@@ -1,14 +1,18 @@
 # Contributing to EasyMenu AI
 
-The project is in planning and development. Please coordinate work through issues and keep documentation accurate about what is planned, implemented, and evaluated.
+The project is in planning and development. Coordinate work with the team and keep documentation accurate about what is planned, implemented, and evaluated.
+
+## Access and direct contributions
+
+Team members must accept their collaborator invitation first. Collaborators with Write access may commit and push directly to `main`, including editing files through GitHub. Pull Requests, code reviews, and approvals are optional and are not required before updating `main`. The repository has no branch protection or rulesets requiring them.
 
 ## Team workflow
 
-1. Open or claim an issue describing the change.
-2. Create a branch from the latest `main`, such as `feature/menu-extractor` or `docs/setup`.
-3. Make focused changes and use clear commit messages.
-4. Open a Pull Request to `main` explaining the problem, changes, validation, and limitations.
-5. Request a review from another team member and address feedback before merging. The normal team workflow requires at least one approval.
+1. Coordinate the change with the team, using an issue when useful.
+2. Pull the latest `main` before making changes.
+3. Make focused changes, run relevant checks, and use clear commit messages.
+4. Commit and push directly to `main`. If your push is rejected because someone else updated the branch, fetch and integrate those changes before pushing again.
+5. For larger changes, you may choose a separate branch and Pull Request for discussion; this is optional.
 
 ## Code and experiments
 
@@ -19,6 +23,6 @@ The project is in planning and development. Please coordinate work through issue
 - Document licenses and permissions for datasets and models.
 - Do not present proposed technology or unmeasured results as completed work.
 
-## Review
+## Collaboration
 
-Keep Pull Requests small enough to review. Discuss changes respectfully and flag unresolved limitations. Repository owners retain administrative control for recovery and maintenance.
+Discuss changes respectfully and flag unresolved limitations. Repository owners retain administrative control for recovery and maintenance.
